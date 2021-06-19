@@ -2,7 +2,7 @@
 
 To build, download and unzip into a folder, then compile with:
 
-g++  *.cpp -fpermissive -lOpenCL -lcurl -g
+g++  *.cpp -fpermissive -lOpenCL -lcurl -g -pthreads
 
 OpenCL and curl libraries are required which can be installed with apt-get install
 
